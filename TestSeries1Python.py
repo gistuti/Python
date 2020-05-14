@@ -1,4 +1,4 @@
-'''Q1.
+Q1.
 
 a)
 number=int(input("enter the number:"))
@@ -63,7 +63,7 @@ for i in range(0,n):
     list2.append(elements)
 print(list2)
 
-'''
+
 
 list3=[]
 
