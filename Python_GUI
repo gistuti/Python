@@ -1,0 +1,30 @@
+from tkinter import *
+wind=Tk()
+wind.title("Welcome to Istuti Gupta GUI")
+wind.geometry("66x44")
+btn=Button()
+btn.pack()
+btn["text"]="Hello everyone"
+wind.mainloop()
+
+![welcome to gui](https://user-images.githubusercontent.com/63596252/85286125-ae041100-b4af-11ea-807c-96424f69898e.png)
+
+#digitalclock
+
+import time
+import tkinter as tk
+def digclock(t1=''):
+    t2=time.strftime('%H:%M:%S')
+    if t1 != t2:
+        t1 = t2
+        clock.config(text=t2)
+
+    clock.after(300,digclock)
+wind = tk.Tk()
+clock = tk.Label(wind, font=('calibri',12, 'bold'),bg='blue')
+wind.title("Welcome to Istuti Gupta Digital Clock")
+clock.pack()
+digclock()
+wind.mainloop()
+
+![digital clock](https://user-images.githubusercontent.com/63596252/85286132-b0666b00-b4af-11ea-9c79-3a3407dc66f8.png)
